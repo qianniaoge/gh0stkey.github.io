@@ -1,61 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<title>Web安全测试学习手册-业务逻辑测试 - Vulkey_Chen's Blog</title>
+	<meta name="description" content="Web安全测试学习手册-业务逻辑测试">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#2d2a2a">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#2d2a2a">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#2d2a2a">
 
-  <meta charset="UTF-8">
-  <title>Web安全测试学习手册-业务逻辑测试</title>
-  <meta name="viewport" content="width=device-width">
-
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/style.css" rel="stylesheet" />
-  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/colors-dark.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
 
+  <aside class="sidebar">
 
-  <header id="header">
-    <h1><a href="/">root[at]Vulkey_Chen:~# ls</a></h1>
-    <p>I want to create everything for you.</p>
-  </header>
-
-
-  <div id="page">
-
-    <div id="sidebar">
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/archives" target="_blank">Archive</a></li>
-	  <li><a href="mailto:admin@gh0st.cn" target="_blank">Email</a></li>
-          <li><a href="http://github.com/gh0stkey" target="_blank">Github</a></li>
-          <li><a href="/feed.xml" target="_blank">RSS Feed</a></li>
-	  <hr>
-	  <a>Links:</a>
-	  <br>
-	  <a href="http://www.hi-ourlife.com/?from=gh0st.cn" target="_blank">Mystery Team</a>
-	  <br>
-	  <a href="http://www.j2ee.app/?from=gh0st.cn" target="_blank">0nise's Blog</a>
-	  <br>
-	  <a href="http://www.shallowdream.cn/?from=gh0st.cn" target="_blank">XiaoYing's Blog</a>
-	  <br>
-	  <a href="http://www.hacker-gov.cn/?from=gh0st.cn" target="_blank">蜂巢网络安全</a>
-        </ul>
-      </nav>
+  <div class="sidebar-container">
+    <div class="sidebar-logo">
+      <a href="/" class="logo">Vulkey</a>
     </div>
 
+    <menu class="sidebar-menu">
+      <li class="menu-items"><a class="menu-links" href="/">Home</a></li>
+      <li class="menu-items"><a class="menu-links" href="/about/">About</a></li>
+      <li class="menu-items"><a class="menu-links" href="https://github.com/gh0stkey">Github</a></li>
+    </menu>
+
+    <div class="sidebar-social">
+      Vulkey_Chen's Blog | 2018.
+    </div>
+
+  </div>
+</aside>
 
 
-    <div id="content">
-      <article class="post">
-
-	
-		<h1><a href="/archives/2018-04-18/1">Web安全测试学习手册-业务逻辑测试</a></h1>
-	
-
-	<div class="post-content"><p>首先感谢朋友倾璇的邀请 http://payloads.online/archivers/2018-03-21/1 ，参与了<web安全测试学习手册>的相关撰写，目前负责业务逻辑测试这一块的撰写，目前初步已经成型，先发出来让大家看看，欢迎点评，也可以加入我们一起来撰写~</web安全测试学习手册></p>
+  <main role="main">
+    <div class="content">
+      <article class="page-article">
+  <div class="wrap-content">
+    <header class="page-header">
+      <h1 class="page-title">Web安全测试学习手册-业务逻辑测试</h1>
+      <div class="page-date"><span>2018, Apr 18&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+    </header>
+    <div class="page-content">
+      
+      <p>首先感谢朋友倾璇的邀请 http://payloads.online/archivers/2018-03-21/1 ，参与了<web安全测试学习手册>的相关撰写，目前负责业务逻辑测试这一块的撰写，目前初步已经成型，先发出来让大家看看，欢迎点评，也可以加入我们一起来撰写~</web安全测试学习手册></p>
 
 <h1 id="业务逻辑测试">业务逻辑测试</h1>
 
@@ -236,38 +232,12 @@
 <p><img src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/2018-04-18/0x03.png" alt="0x03.png" /></p>
 
 <p>最后看你自己来判断是否存在并发的问题，例如签到，如果存在那么肯定是签到天数或者签到所获得的奖励会一下子有很多，也可以看Fiddler中的响应报文结果。</p>
-</div>
 
-	<p class="meta">Posted on <span class="postdate">Apr 18, 2018.</span></p>
-
-</article>
     </div>
-
-
-
   </div>
+</article>
 
-  <footer id="footer">
-    <p class="copyright">Copyright &copy; 2018 Vulkey_Chen.</p>
-  </footer>
-
-  
-  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.min.js"></script>
-  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.mobilemenu.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
-    });
-  </script>
-  <script>
-	$(document).ready(function(){
-	      $("img").each(function(){
-		$(this).replaceWith("<a href='" + $(this).attr('src')+"' target='_blank'>"+
-		  "<img src='" + $(this).attr('src') +"' class='" + $(this).attr('class') +"' alt='" 
-		  + $(this).attr('alt') + "' title='" + $(this).attr('title') + "'"
-		  + " /></a>");
-	      });
-	});
-  </script>
+    </div>
+  </main>
 </body>
 </html>

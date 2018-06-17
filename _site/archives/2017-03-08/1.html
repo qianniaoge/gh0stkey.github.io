@@ -1,61 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<title>移位溢注：告别依靠人品的偏移注入 - Vulkey_Chen's Blog</title>
+	<meta name="description" content="在Access数据库类型注入的时候，我们获取不到列名(前提是有表名)，一般会选择使用偏移注入，但是这种注入方式往往借助的是个人的人品，且步骤繁琐.....">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#2d2a2a">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#2d2a2a">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#2d2a2a">
 
-  <meta charset="UTF-8">
-  <title>移位溢注：告别依靠人品的偏移注入</title>
-  <meta name="viewport" content="width=device-width">
-
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/style.css" rel="stylesheet" />
-  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/colors-dark.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
 
+  <aside class="sidebar">
 
-  <header id="header">
-    <h1><a href="/">root[at]Vulkey_Chen:~# ls</a></h1>
-    <p>I want to create everything for you.</p>
-  </header>
-
-
-  <div id="page">
-
-    <div id="sidebar">
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/archives" target="_blank">Archive</a></li>
-	  <li><a href="mailto:admin@gh0st.cn" target="_blank">Email</a></li>
-          <li><a href="http://github.com/gh0stkey" target="_blank">Github</a></li>
-          <li><a href="/feed.xml" target="_blank">RSS Feed</a></li>
-	  <hr>
-	  <a>Links:</a>
-	  <br>
-	  <a href="http://www.hi-ourlife.com/?from=gh0st.cn" target="_blank">Mystery Team</a>
-	  <br>
-	  <a href="http://www.j2ee.app/?from=gh0st.cn" target="_blank">0nise's Blog</a>
-	  <br>
-	  <a href="http://www.shallowdream.cn/?from=gh0st.cn" target="_blank">XiaoYing's Blog</a>
-	  <br>
-	  <a href="http://www.hacker-gov.cn/?from=gh0st.cn" target="_blank">蜂巢网络安全</a>
-        </ul>
-      </nav>
+  <div class="sidebar-container">
+    <div class="sidebar-logo">
+      <a href="/" class="logo">Vulkey</a>
     </div>
 
+    <menu class="sidebar-menu">
+      <li class="menu-items"><a class="menu-links" href="/">Home</a></li>
+      <li class="menu-items"><a class="menu-links" href="/about/">About</a></li>
+      <li class="menu-items"><a class="menu-links" href="https://github.com/gh0stkey">Github</a></li>
+    </menu>
+
+    <div class="sidebar-social">
+      Vulkey_Chen's Blog | 2018.
+    </div>
+
+  </div>
+</aside>
 
 
-    <div id="content">
-      <article class="post">
-
-	
-		<h1><a href="/archives/2017-03-08/1">移位溢注：告别依靠人品的偏移注入</a></h1>
-	
-
-	<div class="post-content"><h2 id="介绍"><strong>介绍</strong>：</h2>
+  <main role="main">
+    <div class="content">
+      <article class="page-article">
+  <div class="wrap-content">
+    <header class="page-header">
+      <h1 class="page-title">移位溢注：告别依靠人品的偏移注入</h1>
+      <div class="page-date"><span>2017, Mar 08&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+    </header>
+    <div class="page-content">
+      
+      <h2 id="介绍"><strong>介绍</strong>：</h2>
 
 <p>在Access数据库类型注入的时候，我们获取不到列名(前提是有表名)，一般会选择使用偏移注入，但是这种注入方式往往借助的是个人的人品，且步骤繁琐。本文中我们研究了一种新的注入技术让“偏移注入不在需要人品”。在这里定义这种注入技术为：“移位溢注技术”。
 它适用于ACCESS和MYSQL（任何版本）
@@ -206,38 +202,12 @@ UNION SELECT1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
 <p>在这里我们命名这种新注入技术为”移位溢注”。由此如果MYSQL小于5.0的情况下所具备的条件和ACCESS一样，也可以使用此方法注入，如果是MYSQL大于5.0的版本，使用此方法可以省去获得列名的步骤。</p>
 
 <p><strong>文章研究：</strong>米斯特安全攻防实验室 MST.Lab-gh0stkey &amp; Seagull</p>
-</div>
 
-	<p class="meta">Posted on <span class="postdate">Mar 08, 2017.</span></p>
-
-</article>
     </div>
-
-
-
   </div>
+</article>
 
-  <footer id="footer">
-    <p class="copyright">Copyright &copy; 2018 Vulkey_Chen.</p>
-  </footer>
-
-  
-  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.min.js"></script>
-  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.mobilemenu.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
-    });
-  </script>
-  <script>
-	$(document).ready(function(){
-	      $("img").each(function(){
-		$(this).replaceWith("<a href='" + $(this).attr('src')+"' target='_blank'>"+
-		  "<img src='" + $(this).attr('src') +"' class='" + $(this).attr('class') +"' alt='" 
-		  + $(this).attr('alt') + "' title='" + $(this).attr('title') + "'"
-		  + " /></a>");
-	      });
-	});
-  </script>
+    </div>
+  </main>
 </body>
 </html>

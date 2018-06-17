@@ -1,17 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Vulkey's Blog - Hack for fun.</title>
-    <description>I want to create everything for you.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Jun 2018 21:42:49 +0800</pubDate>
-    <lastBuildDate>Sun, 17 Jun 2018 21:42:49 +0800</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
-    
-      <item>
-        <title>密码重置思路-小密圈的一道题</title>
-        <description>&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-17T22:10:39+08:00</updated><id>http://localhost:4000/</id><title type="html">Vulkey_Chen’s Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">密码重置思路-小密圈的一道题</title><link href="http://localhost:4000/archives/2018-05-05/1" rel="alternate" type="text/html" title="密码重置思路-小密圈的一道题" /><published>2018-05-05T00:00:00+08:00</published><updated>2018-05-05T00:00:00+08:00</updated><id>http://localhost:4000/archives/2018-05-05/hackrestpwd</id><content type="html" xml:base="http://localhost:4000/archives/2018-05-05/1">&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
 &lt;p&gt;考验技能：黑盒逻辑思考思维&lt;/p&gt;
 
@@ -112,20 +100,7 @@
 
 &lt;p&gt;你现在掌握的思路归根到底都是Fuzzing的结晶。&lt;/p&gt;
 
-&lt;p&gt;在漏洞挖掘中打开你的思维，加油~&lt;/p&gt;
-</description>
-        <pubDate>Sat, 05 May 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2018-05-05/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2018-05-05/1</guid>
-        
-        
-        <category>业务逻辑测试</category>
-        
-      </item>
-    
-      <item>
-        <title>CSRF之你登陆我的账号#业务逻辑组合拳劫持你的权限</title>
-        <description>&lt;p&gt;作者: 启明星辰(江苏)-Vulkey_Chen, 米斯特安全攻防实验室&lt;/p&gt;
+&lt;p&gt;在漏洞挖掘中打开你的思维，加油~&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">前言</summary></entry><entry><title type="html">CSRF之你登陆我的账号#业务逻辑组合拳劫持你的权限</title><link href="http://localhost:4000/archives/2018-04-28/1" rel="alternate" type="text/html" title="CSRF之你登陆我的账号#业务逻辑组合拳劫持你的权限" /><published>2018-04-28T00:00:00+08:00</published><updated>2018-04-28T00:00:00+08:00</updated><id>http://localhost:4000/archives/2018-04-28/CSRF-Login-Hijacking-Account</id><content type="html" xml:base="http://localhost:4000/archives/2018-04-28/1">&lt;p&gt;作者: 启明星辰(江苏)-Vulkey_Chen, 米斯特安全攻防实验室&lt;/p&gt;
 
 &lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
 
@@ -375,20 +350,7 @@ setTimeout(&quot;loadsrc()&quot;,2000);
 
 &lt;p&gt;可能把每一项单独的拎出来会发现这并没有缺陷，但是一旦参与到了业务逻辑中，就一定会存在一定的问题。&lt;/p&gt;
 
-&lt;p&gt;不要看不起一个看似没危害的漏洞甚至一个缺陷，因为你永远不知道它能发挥的巨大危害。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Apr 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2018-04-28/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2018-04-28/1</guid>
-        
-        
-        <category>业务逻辑测试</category>
-        
-      </item>
-    
-      <item>
-        <title>Web安全测试学习手册-业务逻辑测试</title>
-        <description>&lt;p&gt;首先感谢朋友倾璇的邀请 http://payloads.online/archivers/2018-03-21/1 ，参与了&lt;web安全测试学习手册&gt;的相关撰写，目前负责业务逻辑测试这一块的撰写，目前初步已经成型，先发出来让大家看看，欢迎点评，也可以加入我们一起来撰写~&lt;/web安全测试学习手册&gt;&lt;/p&gt;
+&lt;p&gt;不要看不起一个看似没危害的漏洞甚至一个缺陷，因为你永远不知道它能发挥的巨大危害。&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">作者: 启明星辰(江苏)-Vulkey_Chen, 米斯特安全攻防实验室</summary></entry><entry><title type="html">Web安全测试学习手册-业务逻辑测试</title><link href="http://localhost:4000/archives/2018-04-18/1" rel="alternate" type="text/html" title="Web安全测试学习手册-业务逻辑测试" /><published>2018-04-18T00:00:00+08:00</published><updated>2018-04-18T00:00:00+08:00</updated><id>http://localhost:4000/archives/2018-04-18/WebManual-1</id><content type="html" xml:base="http://localhost:4000/archives/2018-04-18/1">&lt;p&gt;首先感谢朋友倾璇的邀请 http://payloads.online/archivers/2018-03-21/1 ，参与了&lt;web安全测试学习手册&gt;的相关撰写，目前负责业务逻辑测试这一块的撰写，目前初步已经成型，先发出来让大家看看，欢迎点评，也可以加入我们一起来撰写~&lt;/web安全测试学习手册&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;业务逻辑测试&quot;&gt;业务逻辑测试&lt;/h1&gt;
 
@@ -568,20 +530,7 @@ setTimeout(&quot;loadsrc()&quot;,2000);
 
 &lt;p&gt;&lt;img src=&quot;http://vulkey.oss-cn-hangzhou.aliyuncs.com/2018-04-18/0x03.png&quot; alt=&quot;0x03.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;最后看你自己来判断是否存在并发的问题，例如签到，如果存在那么肯定是签到天数或者签到所获得的奖励会一下子有很多，也可以看Fiddler中的响应报文结果。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Apr 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2018-04-18/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2018-04-18/1</guid>
-        
-        
-        <category>业务逻辑测试</category>
-        
-      </item>
-    
-      <item>
-        <title>二维码登陆的常见缺陷剖析</title>
-        <description>&lt;h1 id=&quot;二维码登陆的常见缺陷剖析&quot;&gt;二维码登陆的常见缺陷剖析&lt;/h1&gt;
+&lt;p&gt;最后看你自己来判断是否存在并发的问题，例如签到，如果存在那么肯定是签到天数或者签到所获得的奖励会一下子有很多，也可以看Fiddler中的响应报文结果。&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">首先感谢朋友倾璇的邀请 http://payloads.online/archivers/2018-03-21/1 ，参与了的相关撰写，目前负责业务逻辑测试这一块的撰写，目前初步已经成型，先发出来让大家看看，欢迎点评，也可以加入我们一起来撰写~</summary></entry><entry><title type="html">二维码登陆的常见缺陷剖析</title><link href="http://localhost:4000/archives/2018-04-08/1" rel="alternate" type="text/html" title="二维码登陆的常见缺陷剖析" /><published>2018-04-08T00:00:00+08:00</published><updated>2018-04-08T00:00:00+08:00</updated><id>http://localhost:4000/archives/2018-04-08/QRLVul</id><content type="html" xml:base="http://localhost:4000/archives/2018-04-08/1">&lt;h1 id=&quot;二维码登陆的常见缺陷剖析&quot;&gt;二维码登陆的常见缺陷剖析&lt;/h1&gt;
 
 &lt;p&gt;现在很多的电商平台和互联网型企业都有自己的手机APP，为了方便用户的体验，于是就有了”扫码登陆”这样的功能。看似扫码登陆，实际上还是基于HTTP请求来完成的。&lt;/p&gt;
 
@@ -731,20 +680,7 @@ setTimeout(&quot;loadsrc()&quot;,2000);
 
 &lt;h2 id=&quot;结尾&quot;&gt;结尾&lt;/h2&gt;
 
-&lt;p&gt;本文没详细的去写，仅仅记录笔者的实践过程和心得。&lt;/p&gt;
-</description>
-        <pubDate>Sun, 08 Apr 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2018-04-08/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2018-04-08/1</guid>
-        
-        
-        <category>二维码登陆</category>
-        
-      </item>
-    
-      <item>
-        <title>读取型CSRF-需要交互的内容劫持</title>
-        <description>&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
+&lt;p&gt;本文没详细的去写，仅仅记录笔者的实践过程和心得。&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">二维码登陆的常见缺陷剖析</summary></entry><entry><title type="html">读取型CSRF-需要交互的内容劫持</title><link href="http://localhost:4000/archives/2018-03-22/1" rel="alternate" type="text/html" title="读取型CSRF-需要交互的内容劫持" /><published>2018-03-22T00:00:00+08:00</published><updated>2018-03-22T00:00:00+08:00</updated><id>http://localhost:4000/archives/2018-03-22/ReadCsrf</id><content type="html" xml:base="http://localhost:4000/archives/2018-03-22/1">&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
 &lt;p&gt;最近在挖洞，”实践出真知”这句话说的很对，在实际挖掘过程中我会思考很多东西，跟朋友一起准备做一份手册，忽然的想到了一些漏洞的定义和规范。
 &lt;!-- more --&gt;
@@ -882,26 +818,7 @@ setTimeout(&quot;loadsrc()&quot;,2000);
 
 &lt;h1 id=&quot;结尾&quot;&gt;结尾&lt;/h1&gt;
 
-&lt;p&gt;结尾想说的东西其实也没什么了，总结了这些东西希望能帮助到各位~&lt;/p&gt;
-</description>
-        <pubDate>Thu, 22 Mar 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2018-03-22/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2018-03-22/1</guid>
-        
-        
-        <category>CSRF</category>
-        
-        <category>读取</category>
-        
-        <category>内容劫持</category>
-        
-        <category>交互</category>
-        
-      </item>
-    
-      <item>
-        <title>OAuth2.0认证缺陷-第三方帐号快捷登录授权劫持漏洞</title>
-        <description>&lt;h1 id=&quot;什么是oauth20&quot;&gt;&lt;strong&gt;什么是OAuth2.0？&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;结尾想说的东西其实也没什么了，总结了这些东西希望能帮助到各位~&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">前言</summary></entry><entry><title type="html">OAuth2.0认证缺陷-第三方帐号快捷登录授权劫持漏洞</title><link href="http://localhost:4000/archives/2018-02-12/1" rel="alternate" type="text/html" title="OAuth2.0认证缺陷-第三方帐号快捷登录授权劫持漏洞" /><published>2018-02-12T00:00:00+08:00</published><updated>2018-02-12T00:00:00+08:00</updated><id>http://localhost:4000/archives/2018-02-12/OAuth2.0-Vul</id><content type="html" xml:base="http://localhost:4000/archives/2018-02-12/1">&lt;h1 id=&quot;什么是oauth20&quot;&gt;&lt;strong&gt;什么是OAuth2.0？&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;OAuth2.0是OAuth协议的下一版本，但不向后兼容OAuth 1.0即完全废止了OAuth1.0。 OAuth 2.0关注客户端开发者的简易性。要么通过组织在资源拥有者和HTTP服务商之间的被批准的交互动作代表用户，要么允许第三方应用代表用户获得访问的权限。同时为Web应用，桌面应用和手机，和起居室设备提供专门的认证流程。2012年10月，OAuth 2.0协议正式发布为RFC 6749 。&lt;/p&gt;
@@ -1104,22 +1021,7 @@ setTimeout(&quot;loadsrc()&quot;,2000);
 
 &lt;p&gt;http://www.cnvd.org.cn/flaw/show/CNVD-2014-02785&lt;/p&gt;
 
-&lt;p&gt;http://www.cnvd.org.cn/flaw/show/CNVD-2018-01622&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Feb 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2018-02-12/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2018-02-12/1</guid>
-        
-        
-        <category>OAuth2.0</category>
-        
-        <category>第三方账号劫持</category>
-        
-      </item>
-    
-      <item>
-        <title>鸡肋点搭配ClickJacking攻击-获取管理员权限</title>
-        <description>&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
+&lt;p&gt;http://www.cnvd.org.cn/flaw/show/CNVD-2018-01622&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">什么是OAuth2.0？</summary></entry><entry><title type="html">鸡肋点搭配ClickJacking攻击-获取管理员权限</title><link href="http://localhost:4000/archives/2017-12-20/1" rel="alternate" type="text/html" title="鸡肋点搭配ClickJacking攻击-获取管理员权限" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>http://localhost:4000/archives/2017-12-20/clickjacking-and-selfxss</id><content type="html" xml:base="http://localhost:4000/archives/2017-12-20/1">&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
 &lt;p&gt;有一段时间没做测试了，偶尔的时候也会去挖挖洞。本文章要写的东西是我利用&lt;code class=&quot;highlighter-rouge&quot;&gt;ClickJacking&lt;/code&gt;拿下管理员权限的测试过程。但在说明过程之前，先带大家了解一下&lt;code class=&quot;highlighter-rouge&quot;&gt;ClickJacking&lt;/code&gt;的&lt;strong&gt;基本原理以及简单的漏洞挖掘&lt;/strong&gt;。&lt;/p&gt;
 
@@ -1242,22 +1144,7 @@ ClickJacking是一种视觉欺骗攻击手段，在web端就是iframe嵌套一�
 
 &lt;h1 id=&quot;结尾&quot;&gt;结尾&lt;/h1&gt;
 
-&lt;p&gt;一次很有意思的实践，让自己满满的成就感，同时也完成了项目任务~&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Dec 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2017-12-20/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2017-12-20/1</guid>
-        
-        
-        <category>ClickJacking</category>
-        
-        <category>selfxss</category>
-        
-      </item>
-    
-      <item>
-        <title>浅析通过'监控'来辅助进行漏洞挖掘</title>
-        <description>&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
+&lt;p&gt;一次很有意思的实践，让自己满满的成就感，同时也完成了项目任务~&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">前言</summary></entry><entry><title type="html">浅析通过’监控’来辅助进行漏洞挖掘</title><link href="http://localhost:4000/archives/2017-10-28/1" rel="alternate" type="text/html" title="浅析通过'监控'来辅助进行漏洞挖掘" /><published>2017-10-28T00:00:00+08:00</published><updated>2017-10-28T00:00:00+08:00</updated><id>http://localhost:4000/archives/2017-10-28/web-monitor</id><content type="html" xml:base="http://localhost:4000/archives/2017-10-28/1">&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
 &lt;p&gt;这篇文章总结了一些笔者个人在漏洞挖掘这一块的”姿势”，看了下好像也没相关类似TIPs或者文章出现，就写下此文。
 &lt;!-- more --&gt;&lt;/p&gt;
@@ -1373,22 +1260,7 @@ filter: match {filter}.{your domain}.ceye.io rule, but limit 20.
 
 &lt;p&gt;本文不足之处欢迎指出，也希望大家可以GET到一点点思路，欢迎跟笔者交流。&lt;/p&gt;
 
-&lt;p&gt;下一篇已经在草稿中了，是关于自动化Fuzz方面的内容，期待吧。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Oct 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2017-10-28/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2017-10-28/1</guid>
-        
-        
-        <category>代码审计</category>
-        
-        <category>监控</category>
-        
-      </item>
-    
-      <item>
-        <title>移位溢注：告别依靠人品的偏移注入</title>
-        <description>&lt;h2 id=&quot;介绍&quot;&gt;&lt;strong&gt;介绍&lt;/strong&gt;：&lt;/h2&gt;
+&lt;p&gt;下一篇已经在草稿中了，是关于自动化Fuzz方面的内容，期待吧。&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">前言</summary></entry><entry><title type="html">移位溢注：告别依靠人品的偏移注入</title><link href="http://localhost:4000/archives/2017-03-08/1" rel="alternate" type="text/html" title="移位溢注：告别依靠人品的偏移注入" /><published>2017-03-08T00:00:00+08:00</published><updated>2017-03-08T00:00:00+08:00</updated><id>http://localhost:4000/archives/2017-03-08/SQLi-new</id><content type="html" xml:base="http://localhost:4000/archives/2017-03-08/1">&lt;h2 id=&quot;介绍&quot;&gt;&lt;strong&gt;介绍&lt;/strong&gt;：&lt;/h2&gt;
 
 &lt;p&gt;在Access数据库类型注入的时候，我们获取不到列名(前提是有表名)，一般会选择使用偏移注入，但是这种注入方式往往借助的是个人的人品，且步骤繁琐。本文中我们研究了一种新的注入技术让“偏移注入不在需要人品”。在这里定义这种注入技术为：“移位溢注技术”。
 它适用于ACCESS和MYSQL（任何版本）
@@ -1538,18 +1410,4 @@ UNION SELECT1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
 
 &lt;p&gt;在这里我们命名这种新注入技术为”移位溢注”。由此如果MYSQL小于5.0的情况下所具备的条件和ACCESS一样，也可以使用此方法注入，如果是MYSQL大于5.0的版本，使用此方法可以省去获得列名的步骤。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;文章研究：&lt;/strong&gt;米斯特安全攻防实验室 MST.Lab-gh0stkey &amp;amp; Seagull&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/archives/2017-03-08/1</link>
-        <guid isPermaLink="true">http://localhost:4000/archives/2017-03-08/1</guid>
-        
-        
-        <category>移位溢注</category>
-        
-        <category>偏移注入</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;&lt;strong&gt;文章研究：&lt;/strong&gt;米斯特安全攻防实验室 MST.Lab-gh0stkey &amp;amp; Seagull&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">介绍：</summary></entry></feed>

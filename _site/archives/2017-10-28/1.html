@@ -1,61 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<title>浅析通过'监控'来辅助进行漏洞挖掘 - Vulkey_Chen's Blog</title>
+	<meta name="description" content="这篇文章总结了一些笔者个人在漏洞挖掘这一块的姿势">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#2d2a2a">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#2d2a2a">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#2d2a2a">
 
-  <meta charset="UTF-8">
-  <title>浅析通过'监控'来辅助进行漏洞挖掘</title>
-  <meta name="viewport" content="width=device-width">
-
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/style.css" rel="stylesheet" />
-  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/colors-dark.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
 
+  <aside class="sidebar">
 
-  <header id="header">
-    <h1><a href="/">root[at]Vulkey_Chen:~# ls</a></h1>
-    <p>I want to create everything for you.</p>
-  </header>
-
-
-  <div id="page">
-
-    <div id="sidebar">
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/archives" target="_blank">Archive</a></li>
-	  <li><a href="mailto:admin@gh0st.cn" target="_blank">Email</a></li>
-          <li><a href="http://github.com/gh0stkey" target="_blank">Github</a></li>
-          <li><a href="/feed.xml" target="_blank">RSS Feed</a></li>
-	  <hr>
-	  <a>Links:</a>
-	  <br>
-	  <a href="http://www.hi-ourlife.com/?from=gh0st.cn" target="_blank">Mystery Team</a>
-	  <br>
-	  <a href="http://www.j2ee.app/?from=gh0st.cn" target="_blank">0nise's Blog</a>
-	  <br>
-	  <a href="http://www.shallowdream.cn/?from=gh0st.cn" target="_blank">XiaoYing's Blog</a>
-	  <br>
-	  <a href="http://www.hacker-gov.cn/?from=gh0st.cn" target="_blank">蜂巢网络安全</a>
-        </ul>
-      </nav>
+  <div class="sidebar-container">
+    <div class="sidebar-logo">
+      <a href="/" class="logo">Vulkey</a>
     </div>
 
+    <menu class="sidebar-menu">
+      <li class="menu-items"><a class="menu-links" href="/">Home</a></li>
+      <li class="menu-items"><a class="menu-links" href="/about/">About</a></li>
+      <li class="menu-items"><a class="menu-links" href="https://github.com/gh0stkey">Github</a></li>
+    </menu>
+
+    <div class="sidebar-social">
+      Vulkey_Chen's Blog | 2018.
+    </div>
+
+  </div>
+</aside>
 
 
-    <div id="content">
-      <article class="post">
-
-	
-		<h1><a href="/archives/2017-10-28/1">浅析通过'监控'来辅助进行漏洞挖掘</a></h1>
-	
-
-	<div class="post-content"><h1 id="前言">前言</h1>
+  <main role="main">
+    <div class="content">
+      <article class="page-article">
+  <div class="wrap-content">
+    <header class="page-header">
+      <h1 class="page-title">浅析通过'监控'来辅助进行漏洞挖掘</h1>
+      <div class="page-date"><span>2017, Oct 28&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+    </header>
+    <div class="page-content">
+      
+      <h1 id="前言">前言</h1>
 
 <p>这篇文章总结了一些笔者个人在漏洞挖掘这一块的”姿势”，看了下好像也没相关类似TIPs或者文章出现，就写下此文。
 <!-- more --></p>
@@ -172,38 +168,12 @@ filter: match {filter}.{your domain}.ceye.io rule, but limit 20.
 <p>本文不足之处欢迎指出，也希望大家可以GET到一点点思路，欢迎跟笔者交流。</p>
 
 <p>下一篇已经在草稿中了，是关于自动化Fuzz方面的内容，期待吧。</p>
-</div>
 
-	<p class="meta">Posted on <span class="postdate">Oct 28, 2017.</span></p>
-
-</article>
     </div>
-
-
-
   </div>
+</article>
 
-  <footer id="footer">
-    <p class="copyright">Copyright &copy; 2018 Vulkey_Chen.</p>
-  </footer>
-
-  
-  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.min.js"></script>
-  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.mobilemenu.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
-    });
-  </script>
-  <script>
-	$(document).ready(function(){
-	      $("img").each(function(){
-		$(this).replaceWith("<a href='" + $(this).attr('src')+"' target='_blank'>"+
-		  "<img src='" + $(this).attr('src') +"' class='" + $(this).attr('class') +"' alt='" 
-		  + $(this).attr('alt') + "' title='" + $(this).attr('title') + "'"
-		  + " /></a>");
-	      });
-	});
-  </script>
+    </div>
+  </main>
 </body>
 </html>
