@@ -108,7 +108,7 @@ OAuth2.0认证缺陷-快捷登陆账号劫持的问题具体可以参考：http:
 
 考虑到凭证时效性的问题，在这里写了一个动态的PoC：
 
-```php+HTML
+```php
 <?php
 //get weibo login token
 $curl = curl_init();
@@ -181,7 +181,7 @@ http://open.weibo.com/wiki/Oauth2/authorize
 
 很简单我们可以使用点击劫持来完成攻击，如下动态的PoC：
 
-```php+HTML
+```php
 <?php
 //get weibo login token
 $curl = curl_init();
