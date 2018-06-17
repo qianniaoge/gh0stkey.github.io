@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Vulkey_Chen's Blog</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/style.css" rel="stylesheet" />
+  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/colors-dark.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+  <header id="header">
+    <h1><a href="/">root[at]Vulkey_Chen:~# ls</a></h1>
+    <p>I want to create everything for you.</p>
+  </header>
+
+
+  <div id="page">
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives" target="_blank">Archive</a></li>
+	  <li><a href="mailto:admin@gh0st.cn" target="_blank">Email</a></li>
+          <li><a href="http://github.com/gh0stkey" target="_blank">Github</a></li>
+          <li><a href="/feed.xml" target="_blank">RSS Feed</a></li>
+	  <hr>
+	  <a>Links:</a>
+	  <br>
+	  <a href="http://www.hi-ourlife.com/?from=gh0st.cn" target="_blank">Mystery Team</a>
+	  <br>
+	  <a href="http://www.j2ee.app/?from=gh0st.cn" target="_blank">0nise's Blog</a>
+	  <br>
+	  <a href="http://www.shallowdream.cn/?from=gh0st.cn" target="_blank">XiaoYing's Blog</a>
+	  <br>
+	  <a href="http://www.hacker-gov.cn/?from=gh0st.cn" target="_blank">蜂巢网络安全</a>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div id="content">
+      <div id="blog-archives">
+
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2018-05-05/1">密码重置思路-小密圈的一道题</a></h1>
+			
+		</article>
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2018-04-28/1">CSRF之你登陆我的账号#业务逻辑组合拳劫持你的权限</a></h1>
+			
+		</article>
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2018-04-18/1">Web安全测试学习手册-业务逻辑测试</a></h1>
+			
+		</article>
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2018-04-08/1">二维码登陆的常见缺陷剖析</a></h1>
+			
+		</article>
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2018-03-22/1">读取型CSRF-需要交互的内容劫持</a></h1>
+			
+		</article>
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2018-02-12/1">OAuth2.0认证缺陷-第三方帐号快捷登录授权劫持漏洞</a></h1>
+			
+		</article>
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2017-12-20/1">鸡肋点搭配ClickJacking攻击-获取管理员权限</a></h1>
+			
+		</article>
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2017-10-28/1">浅析通过'监控'来辅助进行漏洞挖掘</a></h1>
+			
+		</article>
+	
+		<article class="post">
+			
+				<h1><a href="/archives/2017-03-08/1">移位溢注：告别依靠人品的偏移注入</a></h1>
+			
+		</article>
+	
+
+</div>
+
+    </div>
+
+
+
+  </div>
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; 2018 Vulkey_Chen.</p>
+  </footer>
+
+  
+  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.min.js"></script>
+  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.mobilemenu.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+  <script>
+	$(document).ready(function(){
+	      $("img").each(function(){
+		$(this).replaceWith("<a href='" + $(this).attr('src')+"' target='_blank'>"+
+		  "<img src='" + $(this).attr('src') +"' class='" + $(this).attr('class') +"' alt='" 
+		  + $(this).attr('alt') + "' title='" + $(this).attr('title') + "'"
+		  + " /></a>");
+	      });
+	});
+  </script>
+</body>
+</html>

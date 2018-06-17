@@ -1,0 +1,7 @@
+name: Vulkey_Chen
+url: http://gh0st.cn/
+description: I want to create everything for you.
+paginate: 10
+gems: [jekyll-paginate]
+excerpt_separator:  '<!-- more -->'
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

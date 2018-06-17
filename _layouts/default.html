@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/style.css" rel="stylesheet" />
+  <link href="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/css/colors-dark.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+  <header id="header">
+    <h1><a href="/">root[at]{{ site.name }}:~# ls</a></h1>
+    <p>{{ site.description }}</p>
+  </header>
+
+
+  <div id="page">
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives" target="_blank">Archive</a></li>
+	  <li><a href="mailto:admin@gh0st.cn" target="_blank">Email</a></li>
+          <li><a href="http://github.com/gh0stkey" target="_blank">Github</a></li>
+          <li><a href="/feed.xml" target="_blank">RSS Feed</a></li>
+	  <hr>
+	  <a>Links:</a>
+	  <br>
+	  <a href="http://www.hi-ourlife.com/?from=gh0st.cn" target="_blank">Mystery Team</a>
+	  <br>
+	  <a href="http://www.j2ee.app/?from=gh0st.cn" target="_blank">0nise's Blog</a>
+	  <br>
+	  <a href="http://www.shallowdream.cn/?from=gh0st.cn" target="_blank">XiaoYing's Blog</a>
+	  <br>
+	  <a href="http://www.hacker-gov.cn/?from=gh0st.cn" target="_blank">蜂巢网络安全</a>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div id="content">
+      {{ content }}
+    </div>
+
+
+
+  </div>
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}.</p>
+  </footer>
+
+  
+  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.min.js"></script>
+  <script src="http://vulkey.oss-cn-hangzhou.aliyuncs.com/static/js/jquery.mobilemenu.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+  <script>
+	$(document).ready(function(){
+	      $("img").each(function(){
+		$(this).replaceWith("<a href='" + $(this).attr('src')+"' target='_blank'>"+
+		  "<img src='" + $(this).attr('src') +"' class='" + $(this).attr('class') +"' alt='" 
+		  + $(this).attr('alt') + "' title='" + $(this).attr('title') + "'"
+		  + " /></a>");
+	      });
+	});
+  </script>
+</body>
+</html>
