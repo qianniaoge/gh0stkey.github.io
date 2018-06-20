@@ -6,10 +6,6 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@font-face{
-    font-family: 'Consola';
-    src : url('./consola.ttf');
-}
 
 html {
   line-height: 1.15;
@@ -851,7 +847,7 @@ pre code {
 }
 
 .sidebar-logo .logo {
-  font-family: 'Consola';
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   color: #C0C0C0;
   text-decoration: none;
   font-size: 2.5rem;
@@ -901,7 +897,7 @@ pre code {
   padding: 1rem;
 }
 .main-article .title-article, .main-article .page-title, .main-article .post-title, .page-article .title-article, .page-article .page-title, .page-article .post-title, .post .title-article, .post .page-title, .post .post-title {
-  font-family: 'Consola';
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
