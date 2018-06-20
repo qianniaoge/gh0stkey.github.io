@@ -3,7 +3,6 @@ layout: post
 author: Vulkey_Chen
 title: "鸡肋点搭配ClickJacking攻击-获取管理员权限"
 date: 2017-12-20
-categories: ClickJacking selfxss
 permalink: /archives/2017-12-20/1
 description: "笔者挖到了一个selfxss，在思考之后想起了ClickJacking，于是结合之..."
 ---
@@ -11,8 +10,6 @@ description: "笔者挖到了一个selfxss，在思考之后想起了ClickJackin
 # 前言
 
 有一段时间没做测试了，偶尔的时候也会去挖挖洞。本文章要写的东西是我利用`ClickJacking`拿下管理员权限的测试过程。但在说明过程之前，先带大家了解一下`ClickJacking`的**基本原理以及简单的漏洞挖掘**。
-
-<!-- more -->
 
 # ClickJacking
 

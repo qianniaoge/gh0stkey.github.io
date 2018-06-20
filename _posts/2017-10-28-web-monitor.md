@@ -3,7 +3,6 @@ layout: post
 author: Vulkey_Chen
 title: "浅析通过'监控'来辅助进行漏洞挖掘"
 date: 2017-10-28
-categories: 代码审计 监控
 permalink: /archives/2017-10-28/1
 description: "这篇文章总结了一些笔者个人在漏洞挖掘这一块的姿势"
 ---

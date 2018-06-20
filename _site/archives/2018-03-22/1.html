@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>读取型CSRF-需要交互的内容劫持 - Vulkey_Chen's Blog</title>
-	<meta name="description" content="读取型CSRF-需要交互的内容劫持">
+	<meta name="description" content="大部分人所认识的CSRF都是写入型的，而本文是对读取型CSRF的一个总结...">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Chrome, Firefox OS and Opera -->
@@ -12,9 +12,6 @@
 	<meta name="msapplication-navbutton-color" content="#2d2a2a">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#2d2a2a">
-
-	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
@@ -24,7 +21,7 @@
 
   <div class="sidebar-container">
     <div class="sidebar-logo">
-      <a href="/" class="logo">Vulkey</a>
+      <a href="/" class="logo">Vulkey_Chen</a>
     </div>
 
     <menu class="sidebar-menu">
@@ -35,9 +32,7 @@
     </menu>
 
     <div class="sidebar-social">
-      Copyright &copy; Vulkey_Chen's Blog 2017-2018.
-    </div>
-
+      Copyright &copy; Vulkey_Chen's Blog 2017-2018.<script src="https://s19.cnzz.com/z_stat.php?id=1273979272&web_id=1273979272" language="JavaScript"></script>
   </div>
 </aside>
 
@@ -51,11 +46,9 @@
       <div class="page-date"><span>2018, Mar 22&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
     </header>
     <div class="page-content">
-      
       <h1 id="前言">前言</h1>
 
 <p>最近在挖洞，”实践出真知”这句话说的很对，在实际挖掘过程中我会思考很多东西，跟朋友一起准备做一份手册，忽然的想到了一些漏洞的定义和规范。
-<!-- more -->
 在大多数的人眼里CSRF可能仅仅是<strong>写入型</strong>的比如：修改个人资料、授权登陆等等功能场景的CSRF问题，同时对CSRF这类问题进行了危害等级划分，就像如上两个例子，可以划分为中危和高危。也许是因为交互式的漏洞并没有SQLi这种直接能利用的漏洞危害高，所以一些厂商对CSRF也并不重视。</p>
 
 <p>步入正题，什么是读取型CSRF，这里我对如下的漏洞归纳进了读取型CSRF，因为这些漏洞的利用手法都跟CSRF是一样的：</p>

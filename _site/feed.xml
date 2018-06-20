@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-19T08:47:44+08:00</updated><id>http://localhost:4000/</id><title type="html">Vulkey_Chen’s Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-20T09:31:17+08:00</updated><id>http://localhost:4000/</id><title type="html">Vulkey_Chen’s Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">密码重置思路-小密圈的一道题</title><link href="http://localhost:4000/archives/2018-05-05/1" rel="alternate" type="text/html" title="密码重置思路-小密圈的一道题" /><published>2018-05-05T00:00:00+08:00</published><updated>2018-05-05T00:00:00+08:00</updated><id>http://localhost:4000/archives/2018-05-05/hackrestpwd</id><content type="html" xml:base="http://localhost:4000/archives/2018-05-05/1">&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
 &lt;p&gt;考验技能：黑盒逻辑思考思维&lt;/p&gt;
@@ -534,8 +534,6 @@
 
 &lt;p&gt;现在很多的电商平台和互联网型企业都有自己的手机APP，为了方便用户的体验，于是就有了”扫码登陆”这样的功能。看似扫码登陆，实际上还是基于HTTP请求来完成的。&lt;/p&gt;
 
-&lt;!-- more --&gt;
-
 &lt;h2 id=&quot;了解扫码登陆步骤&quot;&gt;了解扫码登陆步骤&lt;/h2&gt;
 
 &lt;p&gt;标准的二维码登陆流程如下：&lt;/p&gt;
@@ -683,7 +681,6 @@
 &lt;p&gt;本文没详细的去写，仅仅记录笔者的实践过程和心得。&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">二维码登陆的常见缺陷剖析</summary></entry><entry><title type="html">读取型CSRF-需要交互的内容劫持</title><link href="http://localhost:4000/archives/2018-03-22/1" rel="alternate" type="text/html" title="读取型CSRF-需要交互的内容劫持" /><published>2018-03-22T00:00:00+08:00</published><updated>2018-03-22T00:00:00+08:00</updated><id>http://localhost:4000/archives/2018-03-22/ReadCsrf</id><content type="html" xml:base="http://localhost:4000/archives/2018-03-22/1">&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
 &lt;p&gt;最近在挖洞，”实践出真知”这句话说的很对，在实际挖掘过程中我会思考很多东西，跟朋友一起准备做一份手册，忽然的想到了一些漏洞的定义和规范。
-&lt;!-- more --&gt;
 在大多数的人眼里CSRF可能仅仅是&lt;strong&gt;写入型&lt;/strong&gt;的比如：修改个人资料、授权登陆等等功能场景的CSRF问题，同时对CSRF这类问题进行了危害等级划分，就像如上两个例子，可以划分为中危和高危。也许是因为交互式的漏洞并没有SQLi这种直接能利用的漏洞危害高，所以一些厂商对CSRF也并不重视。&lt;/p&gt;
 
 &lt;p&gt;步入正题，什么是读取型CSRF，这里我对如下的漏洞归纳进了读取型CSRF，因为这些漏洞的利用手法都跟CSRF是一样的：&lt;/p&gt;
@@ -823,8 +820,6 @@
 &lt;blockquote&gt;
   &lt;p&gt;OAuth2.0是OAuth协议的下一版本，但不向后兼容OAuth 1.0即完全废止了OAuth1.0。 OAuth 2.0关注客户端开发者的简易性。要么通过组织在资源拥有者和HTTP服务商之间的被批准的交互动作代表用户，要么允许第三方应用代表用户获得访问的权限。同时为Web应用，桌面应用和手机，和起居室设备提供专门的认证流程。2012年10月，OAuth 2.0协议正式发布为RFC 6749 。&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;!-- more --&gt;
 
 &lt;p&gt;&lt;strong&gt;RFC 6749 : https://tools.ietf.org/html/rfc6749&lt;/strong&gt;&lt;/p&gt;
 
@@ -1024,8 +1019,6 @@
 &lt;p&gt;http://www.cnvd.org.cn/flaw/show/CNVD-2018-01622&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">什么是OAuth2.0？</summary></entry><entry><title type="html">鸡肋点搭配ClickJacking攻击-获取管理员权限</title><link href="http://localhost:4000/archives/2017-12-20/1" rel="alternate" type="text/html" title="鸡肋点搭配ClickJacking攻击-获取管理员权限" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>http://localhost:4000/archives/2017-12-20/clickjacking-and-selfxss</id><content type="html" xml:base="http://localhost:4000/archives/2017-12-20/1">&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
 &lt;p&gt;有一段时间没做测试了，偶尔的时候也会去挖挖洞。本文章要写的东西是我利用&lt;code class=&quot;highlighter-rouge&quot;&gt;ClickJacking&lt;/code&gt;拿下管理员权限的测试过程。但在说明过程之前，先带大家了解一下&lt;code class=&quot;highlighter-rouge&quot;&gt;ClickJacking&lt;/code&gt;的&lt;strong&gt;基本原理以及简单的漏洞挖掘&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;!-- more --&gt;
 
 &lt;h1 id=&quot;clickjacking&quot;&gt;ClickJacking&lt;/h1&gt;
 
@@ -1263,8 +1256,7 @@ filter: match {filter}.{your domain}.ceye.io rule, but limit 20.
 &lt;p&gt;下一篇已经在草稿中了，是关于自动化Fuzz方面的内容，期待吧。&lt;/p&gt;</content><author><name>Vulkey_Chen</name></author><summary type="html">前言</summary></entry><entry><title type="html">移位溢注：告别依靠人品的偏移注入</title><link href="http://localhost:4000/archives/2017-03-08/1" rel="alternate" type="text/html" title="移位溢注：告别依靠人品的偏移注入" /><published>2017-03-08T00:00:00+08:00</published><updated>2017-03-08T00:00:00+08:00</updated><id>http://localhost:4000/archives/2017-03-08/SQLi-new</id><content type="html" xml:base="http://localhost:4000/archives/2017-03-08/1">&lt;h2 id=&quot;介绍&quot;&gt;&lt;strong&gt;介绍&lt;/strong&gt;：&lt;/h2&gt;
 
 &lt;p&gt;在Access数据库类型注入的时候，我们获取不到列名(前提是有表名)，一般会选择使用偏移注入，但是这种注入方式往往借助的是个人的人品，且步骤繁琐。本文中我们研究了一种新的注入技术让“偏移注入不在需要人品”。在这里定义这种注入技术为：“移位溢注技术”。
-它适用于ACCESS和MYSQL（任何版本）
-&lt;!-- more --&gt;&lt;/p&gt;
+它适用于ACCESS和MYSQL（任何版本）&lt;/p&gt;
 
 &lt;h2 id=&quot;正文&quot;&gt;&lt;strong&gt;正文：&lt;/strong&gt;&lt;/h2&gt;
 

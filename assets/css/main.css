@@ -335,7 +335,7 @@ textarea {
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
-}
+}Consolas
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -682,7 +682,7 @@ template {
 /* Literal.String.Regex */
 .highlight .s1 {
   color: #c30;
-}
+}Consolas
 
 /* Literal.String.Single */
 .highlight .ss {
@@ -846,11 +846,10 @@ pre code {
 }
 
 .sidebar-logo .logo {
-  font-family: 'Finger Paint', cursive;
+  font-family: 'Consolas', cursive;
   color: #C0C0C0;
-  text-transform: uppercase;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -897,7 +896,7 @@ pre code {
   padding: 1rem;
 }
 .main-article .title-article, .main-article .page-title, .main-article .post-title, .page-article .title-article, .page-article .page-title, .page-article .post-title, .post .title-article, .post .page-title, .post .post-title {
-  font-family: 'Finger Paint', cursive;
+  font-family: 'Consolas', cursive;
   margin-bottom: 0;
   -webkit-transition: all .3s;
   transition: all .3s;

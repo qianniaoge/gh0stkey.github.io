@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>移位溢注：告别依靠人品的偏移注入 - Vulkey_Chen's Blog</title>
-	<meta name="description" content="">
+	<meta name="description" content="本文中我们研究了一种新的注入技术让“偏移注入不在需要人品”。在这里定义这种注入技术为：“移位溢注技术”。">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Chrome, Firefox OS and Opera -->
@@ -12,9 +12,6 @@
 	<meta name="msapplication-navbutton-color" content="#2d2a2a">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#2d2a2a">
-
-	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
@@ -24,7 +21,7 @@
 
   <div class="sidebar-container">
     <div class="sidebar-logo">
-      <a href="/" class="logo">Vulkey</a>
+      <a href="/" class="logo">Vulkey_Chen</a>
     </div>
 
     <menu class="sidebar-menu">
@@ -35,9 +32,7 @@
     </menu>
 
     <div class="sidebar-social">
-      Copyright &copy; Vulkey_Chen's Blog 2017-2018.
-    </div>
-
+      Copyright &copy; Vulkey_Chen's Blog 2017-2018.<script src="https://s19.cnzz.com/z_stat.php?id=1273979272&web_id=1273979272" language="JavaScript"></script>
   </div>
 </aside>
 
@@ -51,12 +46,10 @@
       <div class="page-date"><span>2017, Mar 08&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
     </header>
     <div class="page-content">
-      
       <h2 id="介绍"><strong>介绍</strong>：</h2>
 
 <p>在Access数据库类型注入的时候，我们获取不到列名(前提是有表名)，一般会选择使用偏移注入，但是这种注入方式往往借助的是个人的人品，且步骤繁琐。本文中我们研究了一种新的注入技术让“偏移注入不在需要人品”。在这里定义这种注入技术为：“移位溢注技术”。
-它适用于ACCESS和MYSQL（任何版本）
-<!-- more --></p>
+它适用于ACCESS和MYSQL（任何版本）</p>
 
 <h2 id="正文"><strong>正文：</strong></h2>
 

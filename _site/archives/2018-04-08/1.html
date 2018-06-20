@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>二维码登陆的常见缺陷剖析 - Vulkey_Chen's Blog</title>
-	<meta name="description" content="二维码登陆的常见缺陷剖析">
+	<meta name="description" content="二维码登陆，在表面上来看好像是很安全，但是深入去研究会发现很多都是存在安全隐患～">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Chrome, Firefox OS and Opera -->
@@ -12,9 +12,6 @@
 	<meta name="msapplication-navbutton-color" content="#2d2a2a">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#2d2a2a">
-
-	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|PT+Sans:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
@@ -24,7 +21,7 @@
 
   <div class="sidebar-container">
     <div class="sidebar-logo">
-      <a href="/" class="logo">Vulkey</a>
+      <a href="/" class="logo">Vulkey_Chen</a>
     </div>
 
     <menu class="sidebar-menu">
@@ -35,9 +32,7 @@
     </menu>
 
     <div class="sidebar-social">
-      Copyright &copy; Vulkey_Chen's Blog 2017-2018.
-    </div>
-
+      Copyright &copy; Vulkey_Chen's Blog 2017-2018.<script src="https://s19.cnzz.com/z_stat.php?id=1273979272&web_id=1273979272" language="JavaScript"></script>
   </div>
 </aside>
 
@@ -51,12 +46,9 @@
       <div class="page-date"><span>2018, Apr 08&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
     </header>
     <div class="page-content">
-      
       <h1 id="二维码登陆的常见缺陷剖析">二维码登陆的常见缺陷剖析</h1>
 
 <p>现在很多的电商平台和互联网型企业都有自己的手机APP，为了方便用户的体验，于是就有了”扫码登陆”这样的功能。看似扫码登陆，实际上还是基于HTTP请求来完成的。</p>
-
-<!-- more -->
 
 <h2 id="了解扫码登陆步骤">了解扫码登陆步骤</h2>
 
