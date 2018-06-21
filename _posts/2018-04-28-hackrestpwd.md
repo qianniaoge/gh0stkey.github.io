@@ -3,7 +3,6 @@ layout: post
 author: Vulkey_Chen
 title: "密码重置思路-小密圈的一道题"
 date: 2018-05-05
-categories: 业务逻辑测试
 permalink: /archives/2018-05-05/1
 description: "密码重置思路-小密圈的一道题"
 ---
