@@ -879,9 +879,9 @@ pre code {
 .content {
   position: relative;
   max-width: 48rem;
-  margin-left: 22rem;
+  margin-left: 32rem;
   margin-right: 2rem;
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .main-article, .page-article, .post {
